@@ -36,7 +36,7 @@ public class Power
     [TestMethod]
     public void Power_Valid_Rish()
     {
-        Assert.AreEqual(9.0, Program.Power("2", "3"));
+        Assert.AreEqual(8.0, Program.Power("2", "3"));
         Assert.AreEqual(25.0, Program.Power("5", "2"));
         Assert.AreEqual(1.0, Program.Power("7", "0"));
         Assert.AreEqual(0.125, Program.Power("2", "-3"));
